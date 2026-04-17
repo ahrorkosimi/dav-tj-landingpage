@@ -1,1 +1,15 @@
-{\n  "name": "dav-tj-landingpage",\n  "version": "1.0.0",\n  "private": true,\n  "dependencies": {\n    "next": "latest",\n    "react": "latest",\n    "react-dom": "latest",\n    "typescript": "latest",\n    "recharts": "latest"\n  }\n}
+{
+  "name": "dav-tj-landingpage",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^18",
+    "react-dom": "^18",
+    "@emailjs/browser": "^4.2.0"
+  }
+}
