@@ -7,9 +7,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.2.0",
     "next": "latest",
     "react": "^18",
-    "react-dom": "^18",
-    "@emailjs/browser": "^4.2.0"
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "typescript": "^6.0.3"
   }
 }
